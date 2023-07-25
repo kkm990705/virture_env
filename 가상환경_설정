@@ -1,0 +1,17 @@
+# 아나콘다에서 가상환경 설정하기
+conda create -n 가상환경이름
+conda create -n 가상환경이름 python=3.7  # 파이썬 버전도 내가 설정이 가능함
+
+
+# 가상환경 리스트 보기
+conda env list # 내가 만든 가상환경이 정보를 볼수있다
+conda info env # 이 코드도 똑같다
+
+# 가상환경 활성화
+conda activate 내가 만든 가상환경이름
+
+# 가상환경 비활성화
+conda deactivate 가상환경이름
+
+# 가상환경 삭제
+conda env remove -n 가상환경이름
